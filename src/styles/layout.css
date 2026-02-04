@@ -1,0 +1,43 @@
+.header {
+  width: 100%;
+  height: 72px;            /* ajusta aquí si quieres */
+  display: flex;
+  align-items: center;    /* centra vertical */
+  justify-content: space-between;
+
+  padding: 0 40px;        /* sin padding vertical */
+  box-sizing: border-box;
+}
+
+
+
+.page {
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  background: #eeeeee;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: -3px;
+  box-sizing: border-box;
+}
+
+
+/* ===== CONTENIDO ===== */
+.layout {
+  width: 100%;
+  max-width: 1100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* TODO CENTRADO */
+  text-align: center;
+}
+
+/* ===== LOGO ===== */
+.logos img {
+  height: 50px;      /* cambia este valor si lo quieres más chico */
+  width: auto;
+}
+

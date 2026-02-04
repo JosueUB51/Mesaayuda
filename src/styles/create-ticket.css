@@ -1,0 +1,105 @@
+/* ===== TITULOS ===== */
+.page h1 {
+  font-size: 48px;
+  margin-bottom: 12px;
+  color: #111;
+}
+
+.subtitle {
+  font-size: 22px;
+  color: #b0b0b0;
+  margin-bottom: 48px;
+}
+
+/* ===== CARD GRANDE ===== */
+.ticket-box {
+  width: 100%;
+  max-width: 900px;
+  background: #ffffff;
+  border-radius: 28px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== CONVERSACIÓN ===== */
+.conversation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+/* ===== BURBUJAS ===== */
+.bubble {
+  padding: 12px 16px;
+  border-radius: 16px;
+  max-width: 75%;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.bubble.user {
+  background: #dcdcdc;
+  align-self: flex-end;
+}
+
+.bubble.ai {
+  background: #f0f0f0;
+  align-self: flex-start;
+}
+
+.typing {
+  font-style: italic;
+  opacity: 0.6;
+}
+
+/* ===== TEXTAREA ===== */
+.ticket-box textarea {
+  width: 100%;
+  height: 120px;
+  background: #f5f5f5;
+  color: #111;
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 18px;
+  resize: none;
+  outline: none;
+}
+
+/* ===== ACCIONES ===== */
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.attach {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: #f0f0f0;
+  color: #111;
+  font-size: 26px;
+  border: none;
+  cursor: pointer;
+}
+
+.primary {
+  padding: 12px 32px;
+  border-radius: 18px;
+  background: #e5e5e5;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #111;
+}
+
+.primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
