@@ -23,7 +23,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-=======
+
 .venv/
 __pycache__/
 *.pyc
@@ -31,5 +31,5 @@ __pycache__/
 .vscode/
 .idea/
 
+*.db
 
->>>>>>> 6773378 (Agrega backend API mesa de ayuda)
